@@ -3,15 +3,20 @@
     "keywords": "esp32, webserver",
     "description": "Arduino library for Web Server with ESP32",
     "authors":
-    {
-        "name": "Ivan Grokhotkov",
-        "email": "ivan@ESP32.com"
-    },
+    [
+        {
+            "name": "Ivan Grokhotkov",
+            "email": "ivan@ESP32.com",
+            "url": "https://github.com/igrr",
+            "maintainer": true
+        }
+    ],
     "repository":
     {
         "type": "git",
-        "url": "https://github.com/JackDaniells/ESP32WebServer"
+        "url": "https://github.com/JackDaniells/ESP32WebServer.git"
     },
+    "version": "1.0",
     "frameworks": "arduino",
     "platforms": "espressif32"
 }
